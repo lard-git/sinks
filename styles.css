@@ -1,9 +1,40 @@
-/* Outdated CSS */
+html{
+    font-family: sans-serif;
+}
 body {
-    font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom, rgb(0,0,0), rgb(65, 64, 64), rgba(146, 145, 145, 0.863));
 }
+
+.Header{
+    background-image: url(images/sink3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(131, 129, 129, 0.452), rgba(0, 0, 0, 1));
+    mask-image: linear-gradient(to bottom, rgba(131, 129, 129, 0.308), rgba(0, 0, 0, 0.932));
+    text-align: center;
+    padding: 10px;
+    height: 800px;
+}
+
+.textHeader{
+    font-size: 200%;
+    color: rgb(255, 255, 255,1);
+    text-shadow: 0 0 10px azure;
+    
+}
+
+.hotBar{
+    background-color: #333333; 
+    color: white; 
+    padding: 10px; 
+    vertical-align: top;
+    width: 15%;
+}
+
 
 h1 {
     margin: 0;
