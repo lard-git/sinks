@@ -9,16 +9,32 @@ body {
 }
 
 .Header{
-    background-image: url(images/sink3.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(131, 129, 129, 0.452), rgba(0, 0, 0, 1));
-    mask-image: linear-gradient(to bottom, rgba(131, 129, 129, 0.308), rgba(0, 0, 0, 0.932));
-    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0,0,0), rgb(65,64,64));
+    position: fixed;
     padding: 10px;
-    height: 800px;
+    height: 50px;
+    width: 100vw;
 }
+
+.firstlist{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+}
+
+
+.firstlist li{
+    margin-right: 10px;
+    
+}
+.bg{
+    background-image: url(images/sink3.jpeg);
+}
+
 
 .textHeader{
     font-size: 200%;
