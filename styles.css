@@ -1,82 +1,67 @@
-html{
-    font-family: sans-serif;
-}
+
 body {
-    
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, rgb(0,0,0), rgb(65, 64, 64), rgba(146, 145, 145, 0.863));
 }
 
-.Header{
-    background-image: linear-gradient(to bottom, rgb(0,0,0), rgb(65,64,64));
-    position: fixed;
+.HeaderC {
+    background-image: linear-gradient(to bottom, rgb(0, 174, 255) ,rgb(6, 153, 211) );
     padding: 10px;
+    text-align: center;
+}
+
+.headermain {
+    margin: 0 auto;
     height: 50px;
-    width: 100vw;
 }
 
-.firstlist{
-
-    list-style-type: none;
+.Title {
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
     margin: 0;
-    padding: 0;
-    display: flex;
-    font-size: small;
-    justify-content: center;
+    margin-top: 5px;
+    transform: rotate(-8deg);
+    z-index: 1;
 }
 
-
-.firstlist li{
-    margin-right: 10px;
-    
-}
-.bg{
-    background-image: url(images/sink3.jpeg);
-}
-
-
-.textHeader{
-    font-size: 200%;
-    color: rgb(255, 255, 255,1);
-    text-shadow: 0 0 10px azure;
-    
-}
-
-.hotBar{
-    background-color: #333333; 
-    color: white; 
-    padding: 10px; 
-    vertical-align: top;
-    width: 15%;
-}
-
-
-h1 {
+.ShadowTitle {
+    font-size: 250%;
+    font-weight: bold;
+    color: black;
     margin: 0;
+    transform: rotate(-8deg);
+    margin-top: -50px;
+    z-index: -1; 
 }
 
-ul {
+.hotbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+}
+
+.hotbar ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li {
-    margin: 0;
-    padding: 0;
+.hotbar li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+.hotbar a {
+    color: azure;
+    text-decoration: none;
 }
 
-img {
-    width: 100%;
-    height: auto;
+.hotbar a:hover {
+    color: azure;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+
