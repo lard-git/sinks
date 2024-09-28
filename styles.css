@@ -244,6 +244,9 @@ body {
     top: 12%;
     left: 0;
     height: 52%;
+    max-width: 100%; 
+    width: 100%; 
+    object-fit: cover; 
 }
 
 .texture2{
@@ -252,6 +255,9 @@ body {
     top: 50%;
     left: 0;
     height: 52%;
+    max-width: 100%; 
+    width: 100%; 
+    object-fit: cover; 
 }
 
 .texture3{
@@ -260,6 +266,7 @@ body {
     top: 150%;
     left: 0;
     height: 52%;
+    
 }
 
 .texture4{
