@@ -244,3 +244,27 @@ body {
     left: 0;
     height: 52%;
 }
+
+.texture2{
+    z-index: 1; 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 52%;
+}
+
+.texture3{
+    z-index: 1; 
+    position: absolute;
+    top: 150%;
+    left: 0;
+    height: 52%;
+}
+
+.texture4{
+    z-index: 1; 
+    position: absolute;
+    top: 60%;
+    right: 0;
+    height: 1500px;
+}
