@@ -253,8 +253,8 @@ body {
     z-index: 1; 
     position: absolute;
     top: 50%;
-    left: 0;
-    height: 52%;
+    right: 0;
+    height: 32%;
     max-width: 100%; 
     width: 100%; 
     object-fit: cover; 
@@ -265,7 +265,10 @@ body {
     position: absolute;
     top: 150%;
     left: 0;
-    height: 52%;
+    height: 30%;
+    max-width: 100%; 
+    width: 100%; 
+    object-fit: cover; 
     
 }
 
