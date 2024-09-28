@@ -217,7 +217,9 @@ body {
 
 .ThridS{
     display: flex;
+    flex-wrap: wrap;
     align-items:center ;
+    justify-content: space-evenly;
     z-index: 100;
     gap: 10px;
 }
@@ -233,4 +235,12 @@ body {
     background-color: #fff;
     z-index: 5; 
     
+}
+
+.texture1{
+    z-index: 1; 
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 52%;
 }
