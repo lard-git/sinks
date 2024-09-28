@@ -88,14 +88,14 @@ body {
     align-self: center;
     font-size: 300%;
     color: rgb(0, 174, 255);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
     z-index: 10;
 }
 
 .aboutdesc{
     font-size: 150%;
     color: rgb(0, 174, 255);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
     font-weight: bold;
     z-index: 10;
 }
@@ -139,14 +139,14 @@ body {
     align-self: center;
     font-size: 300%;
     color: rgb(0, 174, 255);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
     
 }
 
 .typedesc{
     font-size: 150%;
     color: rgb(0, 174, 255);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
     font-weight: bold;
     
 }
@@ -185,4 +185,51 @@ body {
     background-color: #fff;
     z-index: 5; 
     transform: skewY(5deg);
+}
+
+.sink3{
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 530px;
+    margin: 100px 50px 100px 100px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.feature{
+    align-self: center;
+    font-size: 300%;
+    color: rgb(0, 174, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    
+}
+
+.featuredesc{
+    font-size: 150%;
+    color: rgb(0, 174, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.ThridS{
+    display: flex;
+    align-items:center ;
+    z-index: 100;
+    gap: 10px;
+}
+
+.rectangle2{
+    content: "";
+    position: absolute;
+    top: 235%;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    background-color: #fff;
+    z-index: 5; 
+    transform: skewY(-5deg);
 }
